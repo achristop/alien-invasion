@@ -8,6 +8,7 @@ from button import Button
 from ship import Ship
 import game_functions as gf
 
+
 def run_game():
     # Initialize pygame, settings, and screen object.
     pygame.init()
@@ -48,5 +49,6 @@ def run_game():
         
         gf.update_screen(ai_settings, screen, stats, sb, ship, aliens,
             bullets, play_button)
+
 
 run_game()
